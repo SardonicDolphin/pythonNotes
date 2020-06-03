@@ -1,0 +1,30 @@
+<html>
+<head><meta charset="UTF-8"><title>Simple HTTP</title></head>
+<!-- An HTML page contains tags.
+     Most tags should have a closing tag later,
+     This gives HTML a tree-like structure.
+     Tags can contain each other, based on where they start and end.
+     The closing tag just has the same name, with a slash in front of it.
+     The major tags you'll always need are html, head and body.
+     html includes the whole HTML file.
+     head includes the title, which is what you see at the top of the window.
+     body contains the content that you see on the page. -->
+<!-- Do remember to include the encoding as the first thing in the header,
+     but the meta tag does not need to be closed. -->
+<!-- By convention, the server uses index.html,
+     if you give the path to a folder -->
+<body>
+<h1>Welcome to the simple HTTP website!</h1>
+<!-- The image is automatically fetched.
+     Also notice that img does not need to be closed.
+     An image just contains itself. -->
+<img src="auto_loaded.png">
+<!-- Links are in the form <a href="[destination]">[link text or image]</a>
+     You have to give the full URL, including the scheme,
+     but not necessarily the path, for outside URLs -->
+<br><a href="http://google.com">Full, External Link</a>
+<!-- These two pages exist in the server, so we only need the path -->
+<br><a href="/internal.html">Internal Link</a>
+<br><a href="/subpath">Internal Folder</a>
+</body>
+</html>

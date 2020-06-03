@@ -1,0 +1,71 @@
+Objectives
+	Create modular, reusable code
+	Overwrite standard operators of classes
+	Assign and use the correct variables based on scope
+	Use command line arguments
+	Read and write files
+
+Functions
+	Declaration
+		Required parameters
+		Functions that are just routines
+		Functions that return a value
+		Optional parameters
+		Documentation
+	Functional programming
+		functions as objects
+		The map function
+		lambda expressions
+	Scope
+		Order: Local, global, built-in
+		closure
+Module
+	By file
+	By folder: __init__.py
+	Import modules in other folders, using sys.path
+	Differentiate between module and script mode
+		Select a module using the -m option
+Classes
+	Methods
+		Basics:
+			Reference to object
+			Initialization
+			Accessors vs modifiers
+		Overriding operations
+	Fields
+		Public vs private
+	Inheritance
+Other interaction methods
+	Command line
+		sys.argv
+		argparse (optparse in Python 2)
+	Files
+		access with read and write
+			remove whitespace with rstrip
+		std* (in, out, err) file streams
+		os module
+			OS-specific strings
+				sep
+				curdir
+				Process state
+					getcwd
+			File traversal
+				listdir
+				walk
+				os.path
+					is* (dir, file, link)
+					realpath
+
+Programming keywords and special variables:
+	Defining Functions: def, return
+	Functional Programming: lambda, map
+	Modules: import, from, __name__
+	Classes: class, self, __init__, __str__
+	Parsing arguments: argparse, ArgumentParser,
+		ArgumentParser.add_argument,
+		ArgumentParser.parse_args
+	Files: open, file.write, file.read, file.readline,
+		file.seekable, file.seek, file.tell,
+		stdin, stdout, stderr, os, path
+		sep, curdir, listdir, getcwd, realpath,
+		isdir, isfile, walk

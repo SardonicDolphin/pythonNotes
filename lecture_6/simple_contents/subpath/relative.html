@@ -1,0 +1,17 @@
+<html>
+<head><meta charset="UTF-8"><title>Relative Page</title></head>
+<body>
+<h1>You must have taken a relative link</h1>
+<!-- Unless the path is blank, which points to the same path,
+     a relative link is not quite relative to the full current URL.
+     It's relative to the deepest folder in the path,
+     not the page itself.
+     The index page has the same URL as the folder,
+     but this page does not.
+     Nevertheless, it goes to /subpath/index.html,
+     not /subpath/relative.html/index.html.
+     Even though the full path is /subpath/relative.html,
+     the link is relative to the folder, /subpath/. -->
+<br><a href="index.html">Not convinced? Go back!</a>
+</body>
+</html>

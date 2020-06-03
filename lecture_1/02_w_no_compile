@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+
+# No compiler is needed, and you can run a Python program like a regular script.
+
+print("Hello World!")
